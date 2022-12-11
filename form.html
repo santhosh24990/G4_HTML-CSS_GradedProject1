@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+    <div class="full">
+    <div class="grid">
+    <div class="details">
+        
+         <p> 1.Your Contact Details</p>
+         
+         <div>
+             <input type="text" placeholder="Full Name" required>
+             <input type="number"  placeholder="Patient Id if exists">
+         </div>
+         <div class="bottom">
+             <input type="number" placeholder="Contact Number" min="6000000000" max="9999999999" required>
+             <input type="Email"  placeholder="Email Id" required> 
+         </div>  
+
+        
+         <p> 2.Address</p>
+         
+         <div>
+             <input type="number" placeholder="H.No" required>
+             <input type="text"  placeholder="Street" required>
+         </div>
+         <div class="bottom">
+            <input type="text" placeholder="Area" required> 
+         </div>  
+            <p> District</p>
+            <select>
+              <option>Choose</option>
+              <option>Chennai</option>
+              <option>Chengelpet</option>
+              <option>Thiruvallur</option>
+              <option>Kanchipuram</option>
+              <option>Salem</option>
+              <option>Erode</option>
+            </select>
+
+         <p>3.Choose the Test Type (Check atleast one box without fail)</p>
+         
+         <div class="checkbox">
+              <input type="checkbox" >    
+                <label>CBC</label> <br>    
+              <input type="checkbox" >    
+                <label>Complete Urine</label> <br>    
+              <input type="checkbox" >    
+                <label>Lipid Profile</label> <br>  
+              <input type="checkbox" >    
+                <label>Thyroid Stimulating Hormone(TSH)</label> <br>
+              <input type="checkbox" >    
+                <label>Glucose Test</label> 
+         </div>
+         
+         <p>4.Do you want a hard copy of the report also?</p>
+
+         <div class="radio">
+               <input type="radio" name="test" >
+                 <label for="html">Yes</label><br>
+               <input type="radio" name="test">
+                 <label for="css">No</label><br>
+         </div>
+
+         <p>5.Select Your Comfortable Date and Time</p>
+         
+         <div class="date">
+               <label for="css">Date</label>
+               <input type="date" name="test"> <br>
+               <label for="css">Time</label>
+               <input type="time" name="test">
+         </div>
+
+    </div>
+     
+         <div class="image">
+              <img src="images\lab-test\lab-test.jpg">
+         </div>
+    </div>
+     
+    <div class="buton_placement">
+      <button  type="button">Reset</button>
+      <button type="button">Submit</button>
+    </div>
+    </div>
+    
+    
+</body>
+</html>

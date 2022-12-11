@@ -1,0 +1,61 @@
+
+
+.image-container {
+
+    width: 98%;
+    height: 550px;
+    border: 2px solid steelblue;
+    background-size: 100% 100%;
+    border-style: solid;
+    animation: swipe 10s infinite ;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+  
+}
+
+
+   
+
+
+@keyframes swipe {
+
+    0%,100% {
+      
+     background-image: url(ani1.jpg) ;
+     
+     
+     
+    }
+    20% {
+    
+        background-image: url(ani2.png);
+       
+       
+    
+    }
+    40% {
+    
+        background-image: url(ani3.jpg);
+       
+        
+    
+    }
+    60% {
+    
+        background-image: url(ani4.jpg);
+        
+       
+    
+        
+    }
+    80% {
+    
+        background-image: url(ani5.jpg);
+        
+       
+    
+    }
+    
+    }
+

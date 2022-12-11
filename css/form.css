@@ -1,0 +1,82 @@
+
+p {
+    
+   margin-top: 40px;
+   margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.details{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.details input {
+
+    border: 0;
+    border-bottom: 1px solid black;
+    width: 150px;
+    
+}
+
+.bottom 
+{
+    margin-top: 40px;
+}
+.checkbox input , .checkbox label
+{
+    margin-left: -75px;
+
+}
+.radio input , .radio label
+{
+    margin-left: -75px;
+
+}
+
+.date label, .date input{
+    margin-left: 0px;
+}
+
+.image img {
+   
+    width: 400px;
+    position: fixed;
+    height: 400px;
+  
+
+}
+
+.grid {
+    position: relative;
+    left: 30%;
+    top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    grid-template-columns: 400px 400px;
+    width: 815px;
+    height: 400px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+
+    background-color: rgb(179, 130, 229);
+    margin-right: 25px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.buton_placement {
+    position: absolute;
+    left: 40%;
+    bottom: 25%;
+  
+    
+    
+}
+
+
